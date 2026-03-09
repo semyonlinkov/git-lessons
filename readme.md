@@ -2,8 +2,8 @@
 ### Начальные настройки
 `git init` - инициализация проекта<br/>
 
-`git config --global user.email "you@example.com"` - указываем нашу почту в конфиге--
-`git config --global user.name "Your Name"` - указываем имя в конфиге--
+`git config --global user.email "you@example.com"` - указываем нашу почту в конфиге  
+`git config --global user.name "Your Name"` - указываем имя в конфиге  
 > `--global` - флаг устанавливает значения для вей системы, так же есть флаги `--global` и `--local`
 
 `git branch -M main` - переименовывает master ветку в main<br/>
