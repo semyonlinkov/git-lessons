@@ -1,31 +1,31 @@
 ## Git команды
 ### Начальные настройки
-`git init` - инициализация проекта<br/>
+`git init` - инициализация проекта  
 
 `git config --global user.email "you@example.com"` - указываем нашу почту в конфиге  
 `git config --global user.name "Your Name"` - указываем имя в конфиге  
 > `--global` - флаг устанавливает значения для вей системы, так же есть флаги `--global` и `--local`
 
-`git branch -M main` - переименовывает master ветку в main<br/>
+`git branch -M main` - переименовывает master ветку в main  
 
-`git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin<br/>
+`git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin  
 
-`git config --list` - выводит настройки из файла всех вайлов config<br/>
-> `cat .git/config` - config файл в локальной директории<br/>
-> `cat ~/.gitconfig` - config в глобале
+`git config --list` - выводит настройки из файла всех вайлов config  
+> `cat .git/config` - config файл в локальной директории  
+> `cat ~/.gitconfig` - config в глобале  
 
-`git config --global alias.c 'config --global'` - создаем простой алиас<br/>
-> `git c --list` - алиас команды `config --global`<br/>
-> `git config alias.test '!git ...; !git ...'` - создание наскольких алиасов вызываемых поочередно
+`git config --global alias.c 'config --global'` - создаем простой алиас  
+> `git c --list` - алиас команды `config --global`  
+> `git config alias.test '!git ...; !git ...'` - создание наскольких алиасов вызываемых поочередно  
 
-`git config -h` - показывает все опции команды config
-> `git help config` - более подробная информация о коммандах config
+`git config -h` - показывает все опции команды config  
+> `git help config` - более подробная информация о коммандах config  
 ---
 
 ### Пушим коммит
-`git add .` - меняет статус всех файлов в рабочей папке на Staged<br/>
-`git commit -m "first commit"` - создает коммит с сообщением (флаг -m) "first commit"<br/>
-`git push -u origin main` - пушим проэет на удаленный репозиторий origin в ветку main<br/>
- > При последующих пушах можно иcпользовать короткую команду `git push`
+`git add .` - меняет статус всех файлов в рабочей папке на Staged  
+`git commit -m "first commit"` - создает коммит с сообщением (флаг -m) "first commit"  
+`git push -u origin main` - пушим проэет на удаленный репозиторий origin в ветку main  
+ > При последующих пушах можно иcпользовать короткую команду `git push`  
 
 ---
