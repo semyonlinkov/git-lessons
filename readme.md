@@ -1,4 +1,4 @@
-## Git комманды
+## Git команды
 ### Начальные настройки
 `git init` - инициализация проекта<br/>
 
@@ -15,8 +15,11 @@
 > `cat ~/.gitconfig` - config в глобале
 
 `git config --global alias.c 'config --global'` - создаем простой алиас<br/>
->`git c --list`
+> `git c --list` - алиас команды `config --global`
+> `git config alias.test '!git ...; !git ...'` - создание наскольких алиасов вызываемых поочередно
 
+`git config -h` - показывает все опции команды config
+> `git help config` - более подробная информация о коммандах config
 ---
 
 ### Пушим коммит
