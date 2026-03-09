@@ -3,15 +3,19 @@
 `git init` - инициализация проекта<br/>
 
 `git config --global user.email "you@example.com"` - указываем нашу почту в конфиге<br/>
-`git config --global user.name "Your Name"` - указываем имя в конфиге
+`git config --global user.name "Your Name"` - указываем имя в конфиге<br/>
 > `--global` - флаг устанавливает значения для вей системы, так же есть флаги `--global` и `--local`
 
 `git branch -M main` - переименовывает master ветку в main<br/>
 
 `git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin<br/>
 
-`git config --list` - выводит настройки из файла config<br/>
-> `cat .git/config` - ну или так 
+`git config --list` - выводит настройки из файла всех вайлов config<br/>
+> `cat .git/config` - config файл в локальной директории
+> `cat ~/.gitconfig` - config в глобале
+
+`git config --global alias.c 'config --global'` - создаем простой алиас<br/>
+>`git c --list`
 
 ---
 
