@@ -2,8 +2,8 @@
 ### Начальные настройки
 `git init` - инициализация проекта<br/>
 
-`git config --global user.email "you@example.com"` - указываем нашу почту в конфиге<br/>
-`git config --global user.name "Your Name"` - указываем имя в конфиге<br/>
+`git config --global user.email "you@example.com"` - указываем нашу почту в конфиге--
+`git config --global user.name "Your Name"` - указываем имя в конфиге--
 > `--global` - флаг устанавливает значения для вей системы, так же есть флаги `--global` и `--local`
 
 `git branch -M main` - переименовывает master ветку в main<br/>
@@ -11,11 +11,11 @@
 `git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin<br/>
 
 `git config --list` - выводит настройки из файла всех вайлов config<br/>
-> `cat .git/config` - config файл в локальной директории
+> `cat .git/config` - config файл в локальной директории<br/>
 > `cat ~/.gitconfig` - config в глобале
 
 `git config --global alias.c 'config --global'` - создаем простой алиас<br/>
-> `git c --list` - алиас команды `config --global`
+> `git c --list` - алиас команды `config --global`<br/>
 > `git config alias.test '!git ...; !git ...'` - создание наскольких алиасов вызываемых поочередно
 
 `git config -h` - показывает все опции команды config
