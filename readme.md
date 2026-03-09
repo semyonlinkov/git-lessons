@@ -10,6 +10,7 @@
 `git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin<br/>
 
 `git config --list` - выводит настройки из файла config<br/>
+> `cat .git/config` - ну или так 
 
 ---
 
