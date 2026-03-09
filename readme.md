@@ -7,9 +7,9 @@
 
 `git branch -M main` - переименовывает master ветку в main<br/>
 
-`git config --list` - выводит настройки из файла config<br/>
-
 `git remote add origin https://github.com/semyonlinkov/git-lessons.git` - привязывает к текущему проекту ссылку на гитхаб куда мы будем пушить коммиты под названием origin<br/>
+
+`git config --list` - выводит настройки из файла config<br/>
 
 ### Пушим коммит
 `git add .` - меняет статус всех файлов в рабочей папке на Staged<br/>
