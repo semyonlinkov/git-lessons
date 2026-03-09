@@ -4,6 +4,7 @@
 
 `git config --global user.email "you@example.com"` - указываем нашу почту в конфиге<br/>
 `git config --global user.name "Your Name"` - указываем имя в конфиге
+> `--global` - флаг устанавливает значения для вей системы, так же есть флаги `--global` и `--local`
 
 `git branch -M main` - переименовывает master ветку в main<br/>
 
@@ -18,6 +19,6 @@
 `git add .` - меняет статус всех файлов в рабочей папке на Staged<br/>
 `git commit -m "first commit"` - создает коммит с сообщением (флаг -m) "first commit"<br/>
 `git push -u origin main` - пушим проэет на удаленный репозиторий origin в ветку main<br/>
- > При следующих пушах можно иcпользовать короткую команду `git push`
+ > При последующих пушах можно иcпользовать короткую команду `git push`
 
 ---
